@@ -1,0 +1,134 @@
+/* reset */
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+/* estilos de header */
+
+header {
+    background-color: rgb(63, 11, 55);    
+}
+
+.header__img--logo {
+    height: 100px ;
+    width: 100px ;
+}
+
+.header__img--facebook {
+    
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    height: 30px ;
+    width: 30px ;
+}
+
+.header__img--instagram {    
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    height: 30px ;
+    width: 30px ;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;         
+}
+
+
+/* estilos de nav */
+
+nav {
+    margin: 30px 20px;
+    padding: 20px;
+    width: 25%;
+    border: 3px solid rgb(63, 11, 55);   
+    display: inline-block;  
+    position: absolute; 
+    
+}
+
+nav ul li {
+    color: rgb(0, 3, 5);
+    list-style: none;
+    font-weight: bold;
+    line-height: 2;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* estilos main */
+
+
+main {
+    margin: 20px 30px;
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    left: 500px ;
+}
+
+h2,  h3 {
+    color: rgb(63, 11, 55);  
+    font-size: 50px;
+    line-height: 2;
+}
+
+
+.quienes__parrafo {
+    line-height: 2;
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+
+.quienes__img {
+    position: relative;
+    top: -300px;
+    left: 460px;
+    
+}
+
+.servicios__img {
+    max-width: 50%;
+    max-height: 50%;  
+}
+
+.turno {
+    height: 300px;
+}
+
+.contactos {
+    height: 300px;
+}
+/* estilos de footer */
+
+footer {
+    list-style: none;
+    background-color: rgb(63, 11, 55);
+    color: aliceblue;
+    padding: 15px;
+    line-height: 1,5;  
+}
+
+
+
+
+
+
+
