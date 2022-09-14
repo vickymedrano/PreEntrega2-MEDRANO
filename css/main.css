@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
-
 }
 
 /* estilos de header */
@@ -51,8 +50,7 @@ nav {
     margin: 30px 20px;
     padding: 20px;
     width: 25%;
-    border: 3px solid rgb(63, 11, 55);   
-      
+    border: 3px solid rgb(63, 11, 55);  
        
 }
 
@@ -68,6 +66,13 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+
+li:hover {
+    
+    filter: drop-shadow(8px 8px 10px rgb(63, 11, 55));
+}   
+
 
 /* estilos main */
 
@@ -107,6 +112,8 @@ h2,  h3 {
 .contactos {
     height: 300px;
 }
+
+
 /* estilos de footer */
 
 footer {
@@ -115,6 +122,28 @@ footer {
     color: aliceblue;
     padding: 15px;
     line-height: 1,5;  
+    animation-name: section;
+    animation-duration: 20s;
+    animation-iteration-count: infinite ;
+    }
+
+    @keyframes section {
+        0% {
+            background-color:  rgb(63, 11, 55);;
+        }
+
+        25% {
+            background-color:  rgb(122, 22, 107);;
+        }
+
+        75% {
+            background-color:  rgb(84, 14, 74);;
+        }
+
+        100% {
+            background-color:  rgb(63, 11, 55);;
+        }
+
 }
 
 
