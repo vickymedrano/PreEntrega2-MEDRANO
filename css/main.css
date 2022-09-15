@@ -7,10 +7,27 @@
     font-family: 'Dosis', sans-serif;
 }
 
+/* estilo del div padre - estructura de la pagina*/
+
+.padre {
+display: grid;
+grid-template-columns: 40% 60% ;
+grid-template-rows: ;
+/* grid-template-area*/
+grid-template-areas: 
+"header header"
+"nav main"
+"footer footer";
+}
+
 /* estilos de header */
 
 header {
-    background-color: rgb(63, 11, 55);    
+    grid-area:header;
+    background-color: rgb(63, 11, 55);
+ 
+   
+
 }
 
 .header__img--logo {
@@ -36,6 +53,8 @@ header {
 }
 
 h1 {
+    position: absolute;
+    top: 30px;
     color: aliceblue;
     text-align: center;
     display: inline-block;
@@ -47,11 +66,13 @@ h1 {
 /* estilos de nav */
 
 nav {
-    margin: 30px 20px;
+    grid-area:nav;
+    margin: 30px 40px;
     padding: 20px;
-    width: 25%;
-    border: 3px solid rgb(63, 11, 55);  
-       
+    width: 50%;
+    border: 3px solid rgb(63, 11, 55);
+    border-radius: 20px;
+    text-align:center;       
 }
 
 nav ul li {
@@ -78,6 +99,7 @@ li:hover {
 
 
 main {
+    grid-area:main;
     
 }
 
@@ -117,6 +139,7 @@ h2,  h3 {
 /* estilos de footer */
 
 footer {
+    grid-area:footer;
     list-style: none;
     background-color: rgb(63, 11, 55);
     color: aliceblue;
