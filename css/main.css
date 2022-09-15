@@ -217,5 +217,10 @@ main {
 
 nav ul li {
     display: inline-block;
-} 
-
+}
+.quienes__img {
+    width: 70%;
+}
+.main__donde-estamos {
+    width: 60%;
+}
