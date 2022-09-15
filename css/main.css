@@ -190,70 +190,32 @@ footer {
 
 @media screen and (max-width: 600px) {
    
-/* estilos nuebos del header */
+/* estilos nuebos*/
 
+.padre {
+    display: flex;
+    flex-direction: column;  
+    }
+    
 
 .header__img--facebook {
     position: fixed;
     top: 10px;
-    right: 5px;
-
-    
-    
-   
+    right: 10px;       
 }
 
 .header__img--instagram {    
    
   position: fixed;
     top: 50px;
-    right: 5px;
-   
+    right: 10px;
 }
-
-nav {
-    position: absolute;
-    top: 5rem;
-   
-
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 1.2px;
-      
-}
-
 
 main {
-    position: relative;
-    top: 4rem
+    text-align: center;
 }
 
-.contenedor {
-    position: relative;
-    top: 1.5rem;
-
-}
-.quienes__parrafo {
-    margin-top: 0;
-}
-.quienes__img {
-    width: 80%;
-    height: 80%;
-    margin-bottom:  5.5rem;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
+nav ul li {
+    display: inline-block;
+} 
 
