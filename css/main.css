@@ -11,7 +11,7 @@
 
 .padre {
 display: grid;
-grid-template-columns: 40% 60% ;
+grid-template-columns: 20% 80% ;
 grid-template-rows: ;
 /* grid-template-area*/
 grid-template-areas: 
@@ -25,6 +25,27 @@ grid-template-areas:
 header {
     grid-area:header;
     background-color: rgb(63, 11, 55);
+    animation-name: gradiente;
+    animation-duration: 20s;
+    animation-iteration-count: infinite ;
+    }
+
+    @keyframes gradiente {
+        0% {
+            background-color:  rgb(63, 11, 55);
+        }
+
+        25% {
+            background-color:  rgb(122, 22, 107);
+        }
+
+        75% {
+            background-color:  #753469;
+        }
+
+        100% {
+            background-color:  rgb(63, 11, 55);
+        }
  
    
 
@@ -67,9 +88,9 @@ h1 {
 
 nav {
     grid-area:nav;
-    margin: 30px 40px;
-    padding: 20px;
-    width: 50%;
+    margin: 2rem;
+    padding: 1rem;
+    
     border: 3px solid rgb(63, 11, 55);
     border-radius: 20px;
     text-align:center;       
@@ -152,19 +173,19 @@ footer {
 
     @keyframes section {
         0% {
-            background-color:  rgb(63, 11, 55);;
+            background-color:  rgb(63, 11, 55);
         }
 
         25% {
-            background-color:  rgb(122, 22, 107);;
+            background-color:  rgb(122, 22, 107);
         }
 
         75% {
-            background-color:  rgb(84, 14, 74);;
+            background-color:  rgb(84, 14, 74);
         }
 
         100% {
-            background-color:  rgb(63, 11, 55);;
+            background-color:  rgb(63, 11, 55);
         }
 
 }
