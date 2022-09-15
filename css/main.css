@@ -123,6 +123,7 @@ li:hover {
 main {
     grid-area:main;
     
+    
 }
 
 h2,  h3 {
@@ -131,7 +132,10 @@ h2,  h3 {
     line-height: 2;
 }
 
-
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
 .quienes__parrafo {
     line-height: 2;
     margin-top: 40px;
@@ -217,13 +221,27 @@ footer {
 main {
     text-align: center;
 }
-
 nav ul li {
     display: inline-block;
 }
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .quienes__img {
     width: 70%;
+    
 }
 .main__donde-estamos {
     width: 60%;
+}
+
+.main__nuestros-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
