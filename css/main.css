@@ -6,19 +6,21 @@
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
 }
+/*estilos generales*/
+
 
 /* estilo del div padre - estructura de la pagina*/
 
 .padre {
 display: grid;
 grid-template-columns: 20% 80% ;
-grid-template-rows: ;
 /* grid-template-area*/
 grid-template-areas: 
 "header header"
 "nav main"
 "footer footer";
 }
+
 
 /* estilos de header */
 
@@ -90,7 +92,6 @@ nav {
     grid-area:nav;
     margin: 2rem;
     padding: 1rem;
-    
     border: 3px solid rgb(63, 11, 55);
     border-radius: 20px;
     text-align:center;       
@@ -138,11 +139,6 @@ h2,  h3 {
 }
 
 
-.quienes__img {
-       
-    
-}
-
 .servicios__img {
     max-width: 50%;
     max-height: 50%;  
@@ -189,6 +185,71 @@ footer {
         }
 
 }
+
+/*media queries*/
+
+@media screen and (max-width: 600px) {
+   
+/* estilos nuebos del header */
+
+
+.header__img--facebook {
+    position: fixed;
+    top: 10px;
+    right: 5px;
+
+    
+    
+   
+}
+
+.header__img--instagram {    
+   
+  position: fixed;
+    top: 50px;
+    right: 5px;
+   
+}
+
+nav {
+    position: absolute;
+    top: 5rem;
+   
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 1.2px;
+      
+}
+
+
+main {
+    position: relative;
+    top: 4rem
+}
+
+.contenedor {
+    position: relative;
+    top: 1.5rem;
+
+}
+.quienes__parrafo {
+    margin-top: 0;
+}
+.quienes__img {
+    width: 80%;
+    height: 80%;
+    margin-bottom:  5.5rem;
+
+}
+
+
+
+
+
+
 
 
 
