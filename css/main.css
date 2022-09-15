@@ -152,7 +152,10 @@ h2,  h3 {
     height: 300px;
 }
 
-
+.main__nuestros-servicios {
+    display: flex;
+    flex-direction: row;
+}
 /* estilos de footer */
 
 footer {
