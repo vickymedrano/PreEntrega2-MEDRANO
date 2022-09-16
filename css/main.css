@@ -245,3 +245,15 @@ nav ul li {
     align-items: center;
 
 }
+
+.card-img-top {
+    width: 50%;
+    height: 50%;
+    margin: auto
+}
+
+.color {
+    background-color:  rgb(84, 14, 74) !important; 
+    margin: auto
+
+}
